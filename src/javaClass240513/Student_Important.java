@@ -1,14 +1,14 @@
 package javaClass240513;
 
-public class Student {
+public class Student_Important {
 	
-	public Student() {
+	public Student_Important() {
 		super();
 		// TODO Auto-generated constructor stub
 		
 	}
 	
-	public Student(String name, String hakbun, int age, String grade, String address) {
+	public Student_Important(String name, String hakbun, int age, String grade, String address) {
 		super();
 		this.name = name;
 		this.hakbun = hakbun;
@@ -17,7 +17,7 @@ public class Student {
 		this.address = address;
 	}
 	
-	public Student(String name, String hakbun, int age, String grade) {
+	public Student_Important(String name, String hakbun, int age, String grade) {
 		super();
 		this.name = name;
 		this.hakbun = hakbun;
