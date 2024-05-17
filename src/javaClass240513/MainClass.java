@@ -54,6 +54,9 @@ public class MainClass {
 		printer.println(true);
 		printer.println(5.7);
 		printer.println("홍길동");
+		
+		Worker worker1 = new Worker("홍길동", 26, "010-7112-7777", "서울 광진구");
+		System.out.println(worker1.age);
 	}
 
 }
